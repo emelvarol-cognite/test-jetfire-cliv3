@@ -34,7 +34,7 @@ jobs:
 
             - name: Deploy transformations
               uses: cognitedata/jetfire-cli@v3
-              if: false  # Remove this line or this wont run! ;)
+            #   if: false  # Remove this line or this wont run! ;)
               env:
                   # List all needed keys or environment variables referenced by
                   # your manifests to be used by transformations at runtime:

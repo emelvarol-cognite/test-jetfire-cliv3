@@ -1,6 +1,6 @@
 ---
-externalId: jetfiretest-v3-test  # Required
-name: jetfiretest-v3-test  # Required
+externalId: jetfiretest-v3-test2  # Required
+name: jetfiretest-v3-test2  # Required
 shared: true  # Optional, default: false
 
 # If null, the transformation will not be scheduled.
