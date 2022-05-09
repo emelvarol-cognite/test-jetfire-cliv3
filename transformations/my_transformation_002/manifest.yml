@@ -10,12 +10,12 @@ shared: true  # Optional, default: false
 query: transformation.sql  # Required
 
 # Valid values are: assets, assethierarchy, events, timeseries, datapoints, stringdatapoints
-destination: assethierarchy  # Required
+# destination: assethierarchy  # Required
 # When writing to RAW tables, use the following syntax:
-# destination:
-#   type: raw
-#   rawDatabase: some_database
-#   rawTable: some_table
+destination:
+  type: raw
+  rawDatabase: some_database
+  rawTable: some_table
 
 # Valid values are:
 #   upsert: Create new items, or update existing items if their id or externalId already exists.
