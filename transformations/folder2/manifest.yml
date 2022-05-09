@@ -34,8 +34,8 @@ action: delete  # Optional, default: upsert
 # specified as the name of an environment variable.
 # If you want to use separate API keys for reading/writing data, use the following syntax:
 apiKey:
-  read: READ_API_KEY
-  write: WRITE_API_KEY
+  read: COGNITE_API_KEY
+  write: COGNITE_API_KEY
 
 # # Either this or apiKey is required
 # # The client credentials to be used in the transformation
