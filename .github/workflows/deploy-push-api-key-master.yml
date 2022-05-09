@@ -33,7 +33,7 @@ jobs:
               id: extract_secrets
 
             - name: Deploy transformations
-              uses: cognitedata/jetfire-cli@v2
+              uses: cognitedata/jetfire-cli@v3
               if: false  # Remove this line or this wont run! ;)
               env:
                   # List all needed keys or environment variables referenced by
