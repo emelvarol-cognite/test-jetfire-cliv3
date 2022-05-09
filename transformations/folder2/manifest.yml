@@ -1,6 +1,6 @@
 ---
-externalId: CLI3-apikey-test1  # Required
-name:  CLI3-apikey-test1  # Required
+externalId: CLI3-apikey-test2  # Required
+name:  CLI3-apikey-test2  # Required
 shared: true  # Optional, default: false
 
 # If null, the transformation will not be scheduled.
@@ -25,9 +25,9 @@ destination: sequences  # Required
 action: delete  # Optional, default: upsert
 
 # List of email adresses to send emails to on transformation errors
-notifications:  # Optional, default: null
-    - emel.varol@cognite.com
-    - hakon.tromborg@cognite.com
+# notifications:  # Optional, default: null
+#     - emel.varol@cognite.com
+#     - hakon.tromborg@cognite.com
 
 # Either this OR authentication is required
 # The API key that will be used to run the transformation,
