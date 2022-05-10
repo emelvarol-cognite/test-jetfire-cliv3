@@ -32,7 +32,7 @@ jobs:
               id: extract_secrets
 
             - name: Deploy transformations
-              uses: cognitedata/jetfire-cli@v3
+              uses: cognitedata/jetfire-cli@v2
               env:
                   # Credentials to be used when running your transformations,
                   # as referenced in your manifests:
